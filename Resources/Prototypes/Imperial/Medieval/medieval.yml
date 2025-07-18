@@ -1094,6 +1094,19 @@
 
 - type: entity
   parent: ClothingNeckTieDet
+  id: MedievalGoldenChain
+  name: golden chains
+  description: Golden chain yoooooo
+  components:
+  - type: Sprite
+    sprite: Imperial/Medieval/Clothing/Medaljons/chain_gold.rsi
+  - type: Clothing
+    slots:
+    - neck
+    sprite: Imperial/Medieval/Clothing/Medaljons/chain_gold.rsi
+
+- type: entity
+  parent: ClothingNeckTieDet
   id: MedaljonSpeed
   name: MedaljonSpeed
   description: MedaljonSpeed

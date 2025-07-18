@@ -467,6 +467,15 @@
   - MedievalNeckDark
   - MedievalNeckBrown
   - MedievalNeckGreen
+  - MedievalGoldChain
+
+- type: loadout
+  id: MedievalGoldChain
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: TradersTimer30hours
+  equipment:
+    neck: MedievalGoldenChain
 
 - type: loadout
   id: MedievalNeckDark
